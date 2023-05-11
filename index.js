@@ -29,16 +29,16 @@ function login() {
 	} else {
 		switch(role.toLowerCase()) {
 			case "admin": 
-				console.log("Welcome back to the class portal, admin!");
+				alert("Welcome back to the class portal, admin!");
 				break;
 			case "teacher": 
-				console.log("Thank you for logging in, teacher!");
+				alert("Thank you for logging in, teacher!");
 				break;
 			case "student": 
-				console.log("Welcome to the class portal, student!");
+				alert("Welcome to the class portal, student!");
 				break;
 			default: 
-				console.log("Role out of range.");
+				alert("Role out of range.");
 		}
 	}
 		
@@ -70,4 +70,4 @@ function average(n1, n2, n3, n4) {
 }
 
 // calling the average function along with its 4 numbers as arguments
-average(86, 92, 75, 96)
+average(73, 80, 75, 85);
