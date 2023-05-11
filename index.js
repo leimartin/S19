@@ -44,11 +44,6 @@ function login() {
 		
 }
 
-// calling the login function
-login();
-// inserting a space to make it readable
-console.log();
-
 // function that takes 4 arguments
 function average(n1, n2, n3, n4) {
 	// calculate its average
@@ -69,5 +64,9 @@ function average(n1, n2, n3, n4) {
 	}
 }
 
+// calling the login function
+login();
+// inserting a space to make it readable
+console.log();
 // calling the average function along with its 4 numbers as arguments
-average(73, 80, 75, 85);
+average(96, 97, 78, 85);
