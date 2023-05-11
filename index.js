@@ -53,7 +53,4 @@ function average(n1, n2, n3, n4) {
 	}
 }
 
-average(85, 92, 89, 96);
-
-// console.log('Name: ' + username)
-// console.log('Role: ' + role)
+average(86, 92, 89, 96);
